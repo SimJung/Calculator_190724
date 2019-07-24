@@ -20,6 +20,10 @@ int main()
 			cin >> a >> b;
 			cout << a << '-' << b << '=' << a - b << '\n';
 			break;
+		case '*':
+			cout << "Put two numvers\n";
+			cin >> a >> b;
+			cout << a << '*' << b << '=' << a * b << '\n';
 		default:
 			return 0;
 		}
