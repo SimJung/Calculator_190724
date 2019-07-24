@@ -1,4 +1,4 @@
-ï»¿#include <iostream>
+ï»?#include <iostream>
 using namespace std;
 
 int main()
@@ -24,6 +24,11 @@ int main()
 			cout << "Put two numbers\n";
 			cin >> a >> b;
 			cout << a << '/' << b << '=' << a / b << '\n';
+			break;
+		case '*':
+			cout << "Put two numvers\n";
+			cin >> a >> b;
+			cout << a << '*' << b << '=' << a * b << '\n';
 			break;
 		default:
 			return 0;
